@@ -6,8 +6,8 @@ wholesalePrice = 200.00
 
 # Write your assignment statements here for profit, salePrice, and saleProfit
 profit = retailPrice - wholesalePrice
-salesPrice = retailPrice - (0.25 * retailPrice)
-saleProfit = salesPrice - wholesalePrice
+salePrice = retailPrice - (0.25 * retailPrice)
+saleProfit = salePrice - wholesalePrice
 
 print("Item Name: " + itemName)
 print("Retail Price: $" + str(retailPrice))
